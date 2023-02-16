@@ -1,0 +1,82 @@
+/* Universal selector */
+header {
+  width: 100%;
+  background-color: rgb(144, 178, 189);
+  text-align: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.inline-list {
+  display:inline;
+}
+
+.block-list {
+  display:block;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+  text-align: center;
+}
+
+
+
+
+.container {
+  width: 600px;
+  height: 800px;
+  margin: 20px auto;
+  border: 5px none black;
+  background-color: #d6ebf0;
+  text-align: center;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  display: block;
+}
+
+.center-section {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Element selectors */
+body {
+  background-color: rgb(251, 252, 252);
+}
+
+
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* Class selector */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* ID selector */
+#contact-us {
+  background-color: #75979c;
+  text-align: center;
+}
